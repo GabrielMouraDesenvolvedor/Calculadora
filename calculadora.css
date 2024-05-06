@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: linear-gradient(150deg, #ff00bb, #550be0);
+    height: 150vh;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .box {
+    position: absolute;
+    background-color: #262627;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #5b5b5b;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #171717;
+  }
+  
+  
+  .visor {
+    background-color: #fff;
+    height: 30px;
+    color: #222222;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
+  }
